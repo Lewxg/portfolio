@@ -1,0 +1,27 @@
+/* Importações dos outros estilos */
+@import "./global.css";
+@import "./header.css";
+@import "./introducao.css";
+@import "./experiencia.css";
+@import "./formacao.css";
+@import "./footer.css";
+
+/* Animações */
+.animate {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.animate.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Estilos para o tema escuro */
+.dark-theme {
+  background-color: #333; /* Cor de fundo escura */
+  color: #fff; /* Texto em branco */
+}
+
+/* Dentro de style.css */
